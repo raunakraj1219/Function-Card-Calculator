@@ -28,7 +28,6 @@ function App() {
 
     const handleInitialValueChange = (e: ChangeEvent<HTMLInputElement>) => {
         const value = e.target.value;
-        console.log({ value });
         setInitialValue(Number(value));
     };
 

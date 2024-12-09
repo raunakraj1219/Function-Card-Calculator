@@ -1,7 +1,6 @@
-import { ChangeEvent, Dispatch, SetStateAction } from "react";
+import { Dispatch, SetStateAction } from "react";
 
 export const handleEquationChange = (
-    // e: ChangeEvent<HTMLInputElement>,
     inputString: string,
     fName: string,
     setEquations: Dispatch<SetStateAction<{ [x: string]: string }>>
