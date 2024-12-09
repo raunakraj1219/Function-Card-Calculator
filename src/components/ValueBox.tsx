@@ -6,7 +6,7 @@ type ValueProps = {
     value: number | undefined;
     handleInitialValueChange?: (e: ChangeEvent<HTMLInputElement>) => void;
 };
-
+//
 const ValueBox: React.FC<ValueProps> = ({
     valueType,
     value,
