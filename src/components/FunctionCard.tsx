@@ -6,7 +6,6 @@ type CardProps = {
     equation: string;
     nextFunction: string;
     handleEquationChange: (
-        // e: ChangeEvent<HTMLInputElement>,
         inputString: string,
         fName: string,
         setEquations: Dispatch<SetStateAction<{ [x: string]: string }>>
@@ -37,14 +36,6 @@ const FunctionCard: React.FC<CardProps> = ({
                     onBlur={() =>
                         handleEquationChange(inputString, fName, setEquations)
                     }
-                    // value={equation}
-                    // onChange={(e) =>
-                    //     handleEquationChange(
-                    //         e.target.value,
-                    //         fName,
-                    //         setEquations
-                    //     )
-                    // }
                 />
                 <p className="pb-1 pt-3">Next function</p>
                 <select

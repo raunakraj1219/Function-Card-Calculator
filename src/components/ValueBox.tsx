@@ -12,7 +12,6 @@ const ValueBox: React.FC<ValueProps> = ({
     value,
     handleInitialValueChange,
 }) => {
-    console.log({ valueType }, VALUE_TYPE_CONTENT[valueType].HEADING);
     return (
         <aside>
             <div
