@@ -5,10 +5,9 @@
     "type": "module",
     "homepage": "https://raunakraj1219.github.io/function-card-calculator",
     "scripts": {
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
+        "build": "vite build",
+        "deploy": "gh-pages -d dist",
         "dev": "vite",
-        "build": "tsc -b && vite build",
         "lint": "eslint .",
         "preview": "vite preview"
     },
